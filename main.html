@@ -3,11 +3,29 @@
 <html>
 
 <head>
+	<title>Accessible Portfolio</title>
 	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
 	<!-- the entire body must be written by student -->
+	<h1 role="heading">My Portfolio</h1>
+	<nav role="navigation">
+		<ul>
+			<li>Home</li>
+			<li>Projects</li>
+            <li>About</li>
+			<li>Contact</li>
+		</ul>
+	</nav>
+	<img role="img" src="https://plus.unsplash.com/premium_photo-1661497219618-6b9f8e3acf8c?auto=format&fit=crop&q=80&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&w=1974" width=400px alt="myimage">
+	<p>Welcome to my portfolio. I showcase my work and projects here.</p>
+        <!-- List with ARIA role and list items -->
+        <ul role="list">
+            <li role="listitem">Project 1: Description of the first project.</li>
+            <li role="listitem">Project 2: Description of the second project.</li>
+            <li role="listitem">Project 3: Description of the third project.</li>
+        </ul>
     <script type="text/javascript" src="./script.js">
 </script>
 
