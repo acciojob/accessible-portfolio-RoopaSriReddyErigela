@@ -1,2 +1,53 @@
 
 /* Your CSS Code here. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+main {
+	display:flex;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+p {
+    text-align: center;
+    margin-top: 20px;
+}
+
+ul[role="list"] {
+    list-style: none;
+    padding: 0;
+}
+
+li[role="listitem"] {
+    margin-bottom: 10px;
+}
